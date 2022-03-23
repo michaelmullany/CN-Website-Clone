@@ -17,10 +17,16 @@
 .banner-container {
     border: 5px solid fuchsia;
     display: flex;
+    justify-content: space-between;
+    
 }
 
 .banner-logo-container {
     border: 5px solid yellow;
+}
+
+.banner-logo-container img {
+    width: 205px;
 }
 
 .navbar-container {
