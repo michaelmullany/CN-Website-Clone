@@ -1,7 +1,15 @@
 * {
-    background-color: rgb(109, 31, 55);
     color: white;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+#header-container {
+    border: 5px solid red;
+    /* Add as a colour for now - move to background-image later */ 
+    background-image: url("./images/costa-header-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(180deg, rgba(122,122,122,1) 0%, rgba(135,245,255,1) 100%); */
 }
