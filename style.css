@@ -1,4 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold);
+@import url(//db.onlinewebfonts.com/c/924ee4158324c02e3e0d62e54cafd14f?family=Gotham+Book);
 
 * {
     box-sizing: border-box;
@@ -114,18 +115,32 @@ main p {
     border: 5px solid turquoise;
     width: 50%;
     min-height: 512px;
+    color: rgb(109, 31, 55);
+    text-align: center;
 }
 
 .card1-section-left {
     padding: 80px;
     background-color: rgb(245, 142, 144);
-    color: rgb(109, 31, 55);
 }
 
-.card1-section-right img {
+.card-section img {
     width: 100%;
     height: 100%;
 }
+
+.card2-section-right {
+    padding: 80px;
+    background-color: rgb(207, 168, 202);
+
+}
+
 .disclaimer {
+    padding: 0px 15%;
     border: 5px solid yellowgreen;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Gotham Book", sans-serif;
+    line-height: 22px;
 }
