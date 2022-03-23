@@ -80,3 +80,22 @@ h1 {
     margin: 120px;
 }
 
+main {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    max-width: 1392px;
+    margin: 92px auto;
+}
+
+.card1 {
+    border: 5px solid fuchsia;
+}
+
+.card2 {
+    border: 5px solid blue;
+}
+
+.disclaimer {
+    border: 5px solid yellowgreen;
+}
