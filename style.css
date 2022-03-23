@@ -13,3 +13,28 @@
     background-size: cover;
     /* background: linear-gradient(180deg, rgba(122,122,122,1) 0%, rgba(135,245,255,1) 100%); */
 }
+
+#navbar-container {
+    border: 5px solid fuchsia;
+    display: flex;
+}
+
+.navbar-logo-container {
+    border: 5px solid yellow;
+}
+
+.navbar-links-container {
+    list-style-type: none;
+    border: 5px solid blue;
+    display: flex;
+}
+
+.navbar-links-container li {
+    text-decoration: none
+}
+
+.customer-icons-container {
+    border: 5px solid greenyellow;
+    display: flex;
+}
+
