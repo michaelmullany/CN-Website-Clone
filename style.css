@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Brandon Grotesque Bold";
+    font-family: "Brandon Grotesque Bold", sans-serif;
 }
 
 #header-container {
@@ -21,7 +21,7 @@
     border: 5px solid fuchsia;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 .banner-logo-container {
@@ -51,5 +51,7 @@
 .customer-icons-container {
     border: 5px solid greenyellow;
     display: flex;
+    justify-content: space-between;
+    width: 88px;
 }
 
