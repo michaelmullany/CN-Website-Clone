@@ -14,22 +14,22 @@
     /* background: linear-gradient(180deg, rgba(122,122,122,1) 0%, rgba(135,245,255,1) 100%); */
 }
 
-#navbar-container {
+.banner-container {
     border: 5px solid fuchsia;
     display: flex;
 }
 
-.navbar-logo-container {
+.banner-logo-container {
     border: 5px solid yellow;
 }
 
-.navbar-links-container {
+.navbar-container {
     list-style-type: none;
     border: 5px solid blue;
     display: flex;
 }
 
-.navbar-links-container li {
+.navbar-container li {
     text-decoration: none
 }
 
