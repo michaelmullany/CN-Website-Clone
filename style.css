@@ -11,7 +11,7 @@
 #header-container {
     border: 5px solid red;
     /* Add as a colour for now - move to background-image later */ 
-    background-image: url("./images/costa-header-bg.jpeg");
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0) 50%), url("./images/costa-header-bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background: linear-gradient(180deg, rgba(122,122,122,1) 0%, rgba(135,245,255,1) 100%); */
