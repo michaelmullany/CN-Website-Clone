@@ -8,6 +8,12 @@
     font-family: "Brandon Grotesque Bold", sans-serif;
 }
 
+body {
+    background-image: url("./images/costa-bg.svg");
+    background-repeat: repeat;
+    background-size:  94px 94px;
+}
+
 #header-container {
     border: 5px solid red;
     /* Add as a colour for now - move to background-image later */ 
