@@ -144,3 +144,13 @@ main p {
     font-family: "Gotham Book", sans-serif;
     line-height: 22px;
 }
+
+.site-map-container {
+    border: 5px solid fuchsia;
+    background-color: rgb(181, 17, 68);
+}
+
+.footer-container {
+    border: 5px solid yellowgreen;
+    background-color: rgb(109, 31, 55);
+}
