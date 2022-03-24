@@ -1,5 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold);
 @import url(//db.onlinewebfonts.com/c/924ee4158324c02e3e0d62e54cafd14f?family=Gotham+Book);
+@import url(//db.onlinewebfonts.com/c/9a2bc11be56851dde98c1b49302cc21a?family=Gotham+Medium);
 
 * {
     box-sizing: border-box;
@@ -143,4 +144,14 @@ main p {
     font-size: 14px;
     font-family: "Gotham Book", sans-serif;
     line-height: 22px;
+}
+
+.disclaimer p {
+    margin: 14px 0px;
+}
+
+p a {
+    color: rgb(109, 31, 55);
+    text-decoration: none;
+    font-family: "Gotham Medium", sans-serif;
 }
