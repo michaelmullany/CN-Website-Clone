@@ -99,20 +99,6 @@ main p {
     text-align: center;
 }
 
-@media all and (max-width: 768px) {
-    .card {
-        flex-wrap: wrap;
-    }
-
-    .card-section {
-        width: 100%;
-    }
-
-    .card2 {
-        flex-direction: column-reverse;
-    }
-}
-
 .card1-section-left {
     padding: 80px;
     background-color: rgb(245, 142, 144);
@@ -301,4 +287,18 @@ li {
 
 .transparent-button a:hover {
     color: rgb(181, 17, 68);
+}
+
+@media all and (max-width: 768px) {
+    .card, .site-map-container {
+        flex-wrap: wrap;
+    }
+
+    .card-section, .map-list {
+        width: 100%;
+    }
+
+    .card2 {
+        flex-direction: column-reverse;
+    }
 }
