@@ -225,6 +225,11 @@ h3 {
     line-height: 27px;
 }
 
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
 .copyright {
     font-family: "Gotham Book", sans-serif; 
     font-size: 18px; 
@@ -245,6 +250,8 @@ h3 {
 li {
     list-style-type: none;
 }
+
+
 
 .button-list{
     display: flex;
