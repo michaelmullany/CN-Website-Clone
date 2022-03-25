@@ -290,12 +290,31 @@ li {
 }
 
 @media all and (max-width: 768px) {
-    .card, .site-map-container {
+    .card, .site-map-container, .footer-container, .footer-text {
         flex-wrap: wrap;
     }
 
-    .card-section, .map-list {
+    .card-section, .map-list, .copyright {
         width: 100%;
+    }
+
+    .footer-links {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .copyright {
+        margin-bottom: 12px;
+    }
+
+    .footer-links a {
+        font-size: 16px;
+    }
+
+    .social-media {
+        width: 100%;
+        justify-content: left;
     }
 
     .card2 {
