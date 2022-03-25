@@ -34,7 +34,6 @@ body {
     align-items: center;
     padding: 29px 0px;
     max-width: 1392px;
-    width: 1392px;
 }
 
 .banner-logo-container img {
@@ -287,6 +286,29 @@ li {
 
 .transparent-button a:hover {
     color: rgb(181, 17, 68);
+}
+
+@media all and (max-width: 1280px) {
+    .navbar-container a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+
+    .banner-logo-container img {
+        width: 78px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .navbar-container, .customer-icons-container {
+        display: none;
+    }
+
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media all and (max-width: 768px) {
