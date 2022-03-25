@@ -118,6 +118,7 @@ main p {
     font-family: "Gotham Book", sans-serif;
     font-size: 18px;
     line-height: 28px;
+    margin-bottom: 28px;
 }
 
 .disclaimer {
@@ -135,6 +136,12 @@ main p {
 
 p a {
     color: rgb(109, 31, 55);
+    text-decoration: none;
+    font-family: "Gotham Medium", sans-serif;
+}
+
+p a:hover {
+    color: rgb(181, 17, 68);
     text-decoration: none;
     font-family: "Gotham Medium", sans-serif;
 }
@@ -237,4 +244,40 @@ h3 {
 
 li {
     list-style-type: none;
+}
+
+.button-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    padding: 15px 0px 15px 0px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 32px;
+    line-height: 28px;
+    padding: 15px 20px;    
+}
+
+.maroon-button a {
+    background-color:rgb(109, 31, 55);
+    color: white;
+}
+
+.maroon-button a:hover {
+    background-color:rgb(181, 17, 68);
+    color: white;
+}
+
+.transparent-button a {
+    color: rgb(109, 31, 55);
+}
+
+.transparent-button a:hover {
+    color: rgb(181, 17, 68);
 }
